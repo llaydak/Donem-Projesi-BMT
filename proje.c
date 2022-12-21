@@ -430,7 +430,7 @@ int anamenu()
     char ad[50];
     char secim;
        
-    if ( (fp = fopen("dosya.txt","w"))==NULL) //w dosyayı yazma modunda açar.
+    if ( (fp = fopen("isim.txt","w"))==NULL) //w dosyayı yazma modunda açar.
     {
         printf("Dosya acilamadi");
         exit(1); ////Kaynakları tamamen temizleyerek programı normal bir şekilde sonlandırır.Ön tanımlanmış bir fonksiyondur.
