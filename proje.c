@@ -157,7 +157,7 @@ int main()
         case 2:
 		printf("\n\n\nHangisini tercih edersin?");
 		printf("\n\nA.Solucan dolu bir kase yiyip piyangoyu kazanmak \t\tB.Orumcek tarafindan isirilip super kahraman olmak\n\n C.Ruyalarini kontrol edebilecek evcil bir hayvana sahip olmak \t\tD.Her hafta bir tane altin yumurtlayan bir tavukla uyumak");
-        //sonuca etkisi yok.
+ 
           
      a2=toupper(getch());
 		if (a2== 'A' ){
@@ -284,7 +284,7 @@ int main()
         case 6:
         printf("\n\n\nIki secenekten birini sec!");
         printf("\n\nA.Asik oldugun insan disinda herkesin seni sevmesi\n\nB.Asik oldugun insan disinda herkesin senden nefret etmesi");
-        //sonuca etkisi yok.
+       
           a6=toupper(getch());
       if (a6== 'A' ){
          sayac+=0;
