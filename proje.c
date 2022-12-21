@@ -1,6 +1,5 @@
 #include<stdio.h> //Giriş ve çıkış işlemlerini yerine getiren fonskiyonları barındıran kütüphanedir.
-#include<ctype.h> /*(char+type=ctype) bir karakterin tipini algılar ve değiştirir.Dizgiler(string) üzerinde yapılan işlemlerde
-avantaj sağlar */ 
+#include<ctype.h> //Dizgiler(string) üzerinde yapılan işlemlerde avantaj sağlar. // 
 #include<stdlib.h> /*Standart library header anlamına gelir. Dinamik bellek yönetimi,tamsayı aritmetiği,arama,sıralama,dönüştürme gibi genel amaçlı fonksiyonları tanımlayan kütüphane. */
 #include<string.h> /*Karakter dizgileri ile ilgili fonksiyon, veri türü ve makro tanımlamaları içerir. C dilinde karakter dizileri üzerinde operatörler ile işlem yapılamadığı için bu tarz fonksiyonlar içeren kütüphaneler kullanılır. */
 #include <conio.h> /* Çoğunlukla MS-DOS derleyicileri tarafından konsol girdi/çıktı işlemleri için sunulan bir başlık dosyasıdır. */
